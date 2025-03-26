@@ -1,0 +1,61 @@
+.ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.ubuntu-mono-bold {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.ubuntu-mono-regular-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.ubuntu-mono-bold-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 80%;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    padding: 10px;
+    background: darkorange;
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+#foto {
+    padding: 20px;
+    background-color: #c298a0;
+}
+
+#img {
+    display: block;
+    justify-self: center;
+}
